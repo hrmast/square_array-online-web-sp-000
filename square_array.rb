@@ -1,5 +1,5 @@
 def square_array(array)
   array.each do |square|
-    Math.sqrt(square)
+    square ** 2
   end
 end
